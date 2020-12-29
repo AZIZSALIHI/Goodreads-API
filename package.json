@@ -1,0 +1,14 @@
+{
+  "name": "goodreads-api",
+  "version": "1.0.0",
+  "description": "A book listing interface utilizing the Goodreads API on the back-end.",
+  "main": "book-listing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aziz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

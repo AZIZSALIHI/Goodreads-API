@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./book-listing.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open_Sans">
+
+</head>
+
+<body>
+  <div class="searchContainer">
+    <input type="text" class="searchBox" id="userInput" placeholder="Search by Author, Title, or ISBN" />
+    <button class="searchButton" id="subButton" onclick="getInput();">Search</button>
+  </div>
+
+  <div class="bookContainer">
+    <table id="bookTable" class="bookTable">
+      <thead>
+        <tr>
+          <th>Cover</th>
+          <th>Author</th>
+          <th>Title</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- book data populated in here! -->
+      </tbody>
+    </table>
+  </div>
+</body>
+<script src="./book-listing.js"></script>
+
+</html>
